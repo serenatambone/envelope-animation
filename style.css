@@ -1,0 +1,71 @@
+#animation-container{
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	
+}
+
+.envelope{
+	background-color: #d74443;
+	height: 100px;
+	width: 200px;
+	position: relative;
+	left: 0px;
+	top: 100px;
+
+}
+
+.paper{
+	background-color: navajowhite;
+	height: 90px;
+	width: 180px;
+	position:relative;
+	left: 10px;
+
+}
+
+.inner1{
+	height: 0px;
+	width:0px;
+	border-bottom: 100px solid #e15349;
+	border-right:200px solid transparent;
+	position:relative;
+	bottom: 100px;
+
+}
+
+.inner2{
+	height: 0px;
+	width: 0px;
+	border-bottom: 100px solid #e95e55;
+	border-left:200px solid transparent;
+	position:relative;
+	bottom: 200px;
+
+}
+
+.cover{
+	height: 0px;
+	width: 0px;
+	border-top: 50px solid #d74443;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	bottom: 300px;
+	position:relative;
+	transform-origin: top;
+}
+
+.envelope:hover .cover{
+	transform: rotateX(180deg);
+	z-index:-1;
+}
+
+.envelope:hover .paper{
+	transform: translateY(-50px);
+}
+
+#message{
+    text-align: center;
+	padding-top: 30px;
+	font-family: Quicksand;
+}
