@@ -5,4 +5,4 @@ This is an education project I made to understand better how css and html work, 
 
 I hope to learn more!
 
-[![envelope gif](https://i.imgur.com/SBFqJCi.mp4)]
+![envelope gif](https://imgur.com/dDE17aV.gif)
